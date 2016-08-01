@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/launch_backgroundColor"
+              android:gravity="center"
+              android:orientation="vertical">
+    <!---->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_launch_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/launchText"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btn_enter_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/launcher_button_margin_top"
+        android:text="@string/click_enter_a"/>
+
+    <Button
+        android:id="@+id/btn_enter_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/launcher_button_margin_top"
+        android:text="@string/click_enter_b"/>
+
+    <Button
+        android:id="@+id/btn_enter_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/launcher_button_margin_top"
+        android:text="@string/click_enter_c"/>
+
+    <Button
+        android:id="@+id/btn_enter_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/launcher_button_margin_top"
+        android:text="@string/click_enter_d"/>
+
+    <Button
+        android:id="@+id/btn_enter_object"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/launcher_button_margin_top"
+        android:text="@string/click_enter_object"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/img_bubble_origin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/head"/>
+
+
+</LinearLayout>

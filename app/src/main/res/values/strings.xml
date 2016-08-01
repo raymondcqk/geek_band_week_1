@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">陈其康</string>
+    <string name="launchText">启动页面</string>
+    <string name="click_enter_a">传递标题“进入界面A”</string>
+    <string name="click_enter_b">View控件测试</string>
+    <string name="click_enter_c">进入界面C</string>
+    <string name="click_enter_d">请求结果 ActivityForResult</string>
+    <string name="splash_text">欢迎使用\nHello\n\nRaymondCQK</string>
+    <string name="click_enter_object">传递对象</string>
+    <string name="weixin_version">微信 6.3.7</string>
+    <string name="copyright">腾讯公司 版权所有\n Copyright © 2011-2015 Tencent.\nAll Rights Reserved.</string>
+    <string name="privacy">使用条款和隐私政策</string>
+
+</resources>
